@@ -16,7 +16,9 @@ public class Dinero {
 				resto = cantidad%100;
 				System.out.println("Son " + billetes + " de 100 €");
 				cantidad = resto;
-			
+			/*Si la cantidad es mayor o igual que 50 pero menor que 100
+			 * calcula los billetes de 50 necesarios
+			 */
 			} else if (cantidad >= 50) {
 				billetes = resto/50;
 				resto = cantidad%50;
