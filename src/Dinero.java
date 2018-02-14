@@ -11,7 +11,7 @@ public class Dinero {
 		int cantidad = Integer.parseInt(sc.nextLine());
 		
 		while (cantidad>0) {
-			//Si la cantidad es mayor que 100, calcula en número de billetes de 100 necesarios.
+			//Si la cantidad es mayor que 100, calcula en número de billetes de 100 necesarios
 			if (cantidad > 100) {
 				billetes = cantidad/100;
 				resto = cantidad%100;
